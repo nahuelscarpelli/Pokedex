@@ -1,0 +1,21 @@
+.pokemon-silhouette {
+    height: 100px;
+    cursor: pointer;
+  }
+  .pokemon-silhouette:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+  }
+  .poke-tile {
+    max-width: 160px;
+    border: 2px solid #B22222;
+    border-radius: 20px;
+    display: inline-flex;
+    text-align: center;
+    overflow: hidden;
+  }
+  .poke-tile:hover{
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    border: 2px solid #ffffff;
+    transition: all 0.5s;
+  }

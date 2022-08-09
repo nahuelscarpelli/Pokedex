@@ -1,0 +1,19 @@
+<template>
+    <lightning-card class="poke-tile" >
+        <div>
+            <div class="media">
+                <p class="titulo">{pokemon.Name}</p>
+                <div onclick={handleAbrirID}> 
+                    <img src={pokemon.Foto_URL__c} alt="pokemon image" class="pokemon-silhouette"/>
+                </div>
+                <div>
+                    <p class="negrita">POKEMON N°{pokemon.PokeIndex__c}</p>
+                    <p><span class="negrita">Tipo:</span> {pokemon.Tipo__c}</p>
+                    <p><span class="negrita">Generación:</span> {pokemon.Generacion__c}</p>
+                    <p><span class="negrita">Peso:</span> {pokemon.Peso__c}</p>
+                    <p><span class="negrita">Altura:</span> {pokemon.Altura__c}</p>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
